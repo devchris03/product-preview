@@ -58,3 +58,76 @@ img {
     object-fit: cover;
 }
 
+/* estilos */
+
+.article {
+    margin-inline: 1rem;
+    background: var(--white);
+    border-radius: .625rem;
+    overflow: hidden;
+    max-inline-size: 21.4375rem;
+}
+
+.article_body {
+    padding: 1.5rem;
+}
+
+.article_tag {
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 5px;
+    line-height: auto;
+}
+
+.article_title,
+.article_priceNow {
+    font-family: var(--fontTitle);
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+.article_title {
+    color: var(--Gunmetal);
+    margin-block-start: .75rem;
+}
+
+.article_price {
+    display: flex;
+    gap: 1.1875rem;
+    align-items: center;
+    margin-block: 1.5rem 1.25rem;
+}
+
+.article_priceNow {
+    color: var(--DeepAquamarine);
+}
+
+.article_priceBefore {
+    text-decoration: line-through;
+}
+
+.article_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .75rem;
+    inline-size: 100%;
+    color: var(--white);
+    padding-block: 1rem;
+    font-weight: 700;
+    font-family: var(--fontFamily);
+    font-size: .875rem;
+    line-height: auto;
+    background: var(--DeepAquamarine);
+    border-radius: .5rem;
+    border: none;
+    cursor: pointer;
+    transition: background .3s;
+
+    &:hover {
+        background: #1A4032;
+    }
+}
+
+
