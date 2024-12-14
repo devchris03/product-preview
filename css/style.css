@@ -1,0 +1,60 @@
+/* fuentes */
+
+@font-face {
+    font-family: "Fraunces";
+    src: url(../font/Fraunces_72pt-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Monterrat";
+    src: url(../font/Montserrat-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Monterrat";
+    src: url(../font/Montserrat-Medium.ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* variables */
+
+:root {
+    font-size: 16px;
+    --white: #FFFFFF;
+    --cream: #F2EAE2;
+    --AurometalSaurus: #6C7289;
+    --DeepAquamarine: #3D8168;
+    --Gunmetal: #1C232B;
+    --fontTitle: "Fraunces";
+    --fontFamily: "Monterrat";
+}
+
+
+/* globales */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    block-size: 100vh;
+    margin: 0;
+    color: var(--AurometalSaurus);
+    font-size: .875rem;
+    background: var(--cream);
+    font-family: var(--fontFamily);
+    line-height: 1.5rem;
+}
+
+img {
+    max-inline-size: 100%;
+    block-size: auto;
+    vertical-align: bottom;
+    object-fit: cover;
+}
+
