@@ -131,3 +131,21 @@ img {
 }
 
 
+/* media querie */
+
+@media (min-width: 90rem) {
+    .article {
+        display: flex;
+        max-inline-size: 37.5rem;
+        margin: 0;
+
+        & > * {
+            flex: 1;
+        }
+    }
+
+    .article_body {
+        box-sizing: border-box;
+        max-inline-size: 18.75rem;
+    }
+}
