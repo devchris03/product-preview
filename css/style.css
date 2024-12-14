@@ -38,17 +38,21 @@
 /* globales */
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    block-size: 100vh;
+    
     margin: 0;
     color: var(--AurometalSaurus);
     font-size: .875rem;
     background: var(--cream);
     font-family: var(--fontFamily);
     line-height: 1.5rem;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    block-size: 100vh;
 }
 
 img {
@@ -144,8 +148,18 @@ img {
         }
     }
 
+    .article_img img{
+        object-fit: cover;
+        block-size: 100%;
+    }
+
     .article_body {
         box-sizing: border-box;
+        padding: 2rem;
         max-inline-size: 18.75rem;
+    }
+
+    .article_price {
+        margin-block: 1.875rem;
     }
 }
